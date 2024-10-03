@@ -5,11 +5,11 @@ on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: protiviti-rg
+  RESOURCE-GROUP: rg-sp
   LOCATION: eastus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
-  SUBSCRIPTION-ID: a664dee9-6859-4f80-9662-5110af273e70
-  WEBAPP-NAME: protivitiwebapp
+  SUBSCRIPTION-ID: b8643377-61c0-42dd-a67f-41fd8ca525d6
+  WEBAPP-NAME: madhaviwebappeshop123
 
 jobs:
   #Build, test and publish .net web project in repository
